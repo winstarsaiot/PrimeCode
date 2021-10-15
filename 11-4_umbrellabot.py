@@ -7,8 +7,8 @@ sv13 = Servomotor('P13')
 sv14 = Servomotor('P14')
 us = UltrasonicSensor("P0")
 
-WIFI_SSID = "WINSTARS_INTERN_2"
-WIFI_PWD = "winstars1234"
+WIFI_SSID = ""
+WIFI_PWD = ""
 response = wifi_connect(WIFI_SSID, WIFI_PWD, trytime=3)
 
 CITY_ID = 1
