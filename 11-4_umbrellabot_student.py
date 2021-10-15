@@ -2,6 +2,8 @@
 
 # Robot parts initialisation
 
+# Network Connection
+
 CITY_ID = 1
 
 WORDS_FINE = {"No Rain", "Fine", "Sunny", "Clear", "Clearing", "Bright",
