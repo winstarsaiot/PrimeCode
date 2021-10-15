@@ -5,7 +5,7 @@ import time, json
 
 sv13 = Servomotor('P13')
 sv14 = Servomotor('P14')
-us = UltrasonicSensor("P0")
+us = UltrasonicSensor('P0')
 
 WIFI_SSID = ""
 WIFI_PWD = ""
