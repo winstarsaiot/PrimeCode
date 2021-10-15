@@ -1,4 +1,6 @@
 # Libraries import
+from pystubit.board import display, Image
+import json
 
 # Robot parts initialisation
 
