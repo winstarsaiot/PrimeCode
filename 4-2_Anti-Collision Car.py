@@ -33,5 +33,4 @@ dcm.power(100)
 
 while True:
     distance = us.get_distance()
-
 '''
