@@ -31,7 +31,7 @@ IMG_CLOUDY = Image("00000:01110:11111:01110:00000:", color=(15, 15, 15))
 IMG_SNOWY = Image("10101:01110:11011:01110:10101:", color=(30, 30, 30))
 IMG_OTHER = Image("00000:00000:01110:00000:00000:", color=(10, 5, 15))
 
-# User define
+# User-defined functions
 def give_umbrella():
     sv13.set_angle(45)
     sv14.set_angle(135)
