@@ -35,13 +35,10 @@ def get_icon():
 def get_forecast():
     url_format = "https://worldweather.wmo.int/en/json/[City ID]_en.json"
     url = url_format.replace("[City ID]", str(CITY_ID))
-    res = json.loads(get_request(url))
-    weather = res["city"]["forecast"]["forecastDay"][0]["weather"]
-    hi_temp = res["city"]["forecast"]["forecastDay"][0]["maxTemp"]
-    lo_temp = res["city"]["forecast"]["forecastDay"][0]["minTemp"]
+    # get the weather information in JSON format from WMO
     # display weather icon
     display.scroll("Hi: " + hi_temp, delay=25, color=(31, 0, 0))
     display.scroll("Lo: " + lo_temp, delay=25, color=(0, 0, 31))
-    # ...
+    # decide to give umbrella or not
 
 # main program
