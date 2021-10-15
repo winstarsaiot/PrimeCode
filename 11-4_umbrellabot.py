@@ -66,10 +66,12 @@ def get_forecast():
     if weather in WORDS_RAINY:
         give_umbrella()
 
-# main program
-sv13.set_angle(90)
-sv14.set_angle(90)
-while True:
-    d = us.get_distance()
-    if d > 0 and d < 30:
-        get_forecast()
+def main():
+    sv13.set_angle(90)
+    sv14.set_angle(90)
+    while True:
+        d = us.get_distance()
+        if d > 0 and d < 30:
+            get_forecast()
+
+main()
