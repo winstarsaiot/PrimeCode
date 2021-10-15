@@ -41,4 +41,5 @@ def get_forecast():
     display.scroll("Lo: " + lo_temp, delay=25, color=(0, 0, 31))
     # decide to give umbrella or not
 
-# main program
+def main():
+  # ...
