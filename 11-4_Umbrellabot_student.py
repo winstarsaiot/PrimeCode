@@ -43,3 +43,5 @@ def get_forecast():
 
 def main():
   # ...
+
+main()
