@@ -1,14 +1,14 @@
+'''
 # Example 1
 print("Hello World")
-'''
+
 # Example 2
 x = "Hello World!"
 print(x)
 
 x = "Greeting World!"
 print("After changing the value of x: " + x)
-'''
-'''
+
 # Example 3
 x = "Hello world!"
 print(x)
@@ -65,8 +65,7 @@ print(contact)
 
 contact.pop('sex')
 print(contact)
-'''
-'''
+
 # Example 4
 x = 3
 y = 2
@@ -101,8 +100,7 @@ x = 1
 y = '2'
 z = x + y
 print(z)
-'''
-'''
+
 # Example 5
 text = 'Python'
 low = text.lower()
@@ -132,13 +130,11 @@ print(text.strip('*'))
 text = '{} and {} are {}.'
 print(text.format('An apple', 'an orange', 'fruits'))
 print(text.format('A cat', 'a dog', 'animals'))
-'''
-'''
+
 # Example 6
 x = input("type in something: ")
 print(x)
-'''
-'''
+
 # Example 7
 x = input("type in 'k': ")
 if x == 'k': # x equals to 'k'
@@ -161,8 +157,7 @@ elif value > 50:
     print("C")
 else:
     print("F")
-'''
-'''
+
 # Example 8
 A = True
 B = False
@@ -181,8 +176,7 @@ if A or B:
     print("or")
 if not B:
     print("not")
-'''
-'''
+
 # Example 9
 x = input("1 + 1 = ? : ")
 while x != '2': # x not equal to '2'
@@ -227,8 +221,7 @@ print('end')
 for count in range(1,10,2):
     print(count)
 print('end')
-'''
-'''
+
 # Example 10
 import time
 for count in range(10):
@@ -247,8 +240,7 @@ for count in range(10):
     print(count)
     slp(1)
 print('end')
-'''
-'''
+
 # Example 11
 def printWord():
   print("Hello")
@@ -269,8 +261,7 @@ def score_cal(value):
 value = input("input score: ")
 value = int(value)
 print(score_cal(value))
-'''
-'''
+
 # Example 12
 class Circle:
   def __init__(self, r=1):
