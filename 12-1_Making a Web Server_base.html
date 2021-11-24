@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width , initial-scale=1">
+<title>Monitoring sensors</title>
+<style>
+    body{
+        width: 100%;
+        height: 100%;
+        margin-right: auto;
+        margin-right: left;
+        font-family: Tahoma, Geneva, "sans-serif";
+    }
+    div#main{
+        position: absolute;
+        width: 100%;
+        height: 100%;    
+    }
+    #main h1{
+        font-size: 2em;
+        margin: 0.5em;
+    }
+    #main table{
+        display: table;
+        border: solid 2px #666666;
+        border-collapse: collapse;
+        margin: 1em;
+    }
+    #main table td{
+        font-size: 1.2em;
+        padding:0.5em 1em;
+        border
+    }
+    #main table thead tr{
+        background-color: #666666;
+    }
+    #main table thead td{
+        color: #ffffff;
+    }
+    #main table tbody tr:nth-child(odd){
+        background-color: #eeeeee;
+    }
+    #main table tbody tr:nth-child(even){
+        background-color: #ffffff;
+    }
+    #main a{
+        display: inline-block;
+        margin: 1em;
+    }
+    #main a button{
+        font-size:1.2em;
+        padding: 0.5em 1em;
+        color: #ffffff;
+        background-color: #22AC38;         
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Sensor values</h1>
+        <table>
+            <thead>
+                <tr><td>Name</td><td>Value</td></tr>
+            </thead>
+<!-- The text strings wrapped in {} below will be replaced with retrieved sensor values -->
+                <tr><td>Button A</td><td>{val_buttonA}</td></tr>
+                <tr><td>Button B</td><td>{val_buttonB}</td></tr>
+                <tr><td>Light Sensor</td><td>{val_lightsensor}</td></tr>
+                <tr><td>Temperature</td><td>{val_temp}</td></tr>
+<!--End-->
+            <tbody>
+            </tbody>
+        </table>
+        <a href=""><button>Update</button></a>
+    </div>
+</body>
+</html>
